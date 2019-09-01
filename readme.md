@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/aad6521e-af47-47a1-8768-53834b15fe32/deploy-status)](https://app.netlify.com/sites/xenodochial-wing-9918b6/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8f77162c-22b1-4636-8e50-0f288acb5160/deploy-status)](https://app.netlify.com/sites/vtcodecamp2013/deploys)
 
 # VT Code Camp 2013 Website
 
