@@ -1,0 +1,18 @@
+{
+    "data-process-and-other": {
+        "slug": "data-process-and-other",
+        "title": "Data, Process & Other"
+    },
+    "ms-and-other": {
+        "slug": "ms-and-other",
+        "title": "MS & Other"
+    },
+    "practices": {
+        "slug": "practices",
+        "title": "Practices"
+    },
+    "web": {
+        "slug": "web",
+        "title": "Web"
+    }
+}

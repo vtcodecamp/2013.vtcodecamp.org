@@ -1,0 +1,526 @@
+{
+    "angular-js-in-practice": {
+        "slug": "angular-js-in-practice",
+        "title": "Angular JS in Practice",
+        "description": "An advanced talk on how the Inventory team is using Angular at Dealer.com. Already been through the tutorials, ready for a deeper dive into how Angular is used in practice? Then this is the talk for you. Learn from our mistakes and wins, our gotchas and best practices.",
+        "track": "web",
+        "space": "room-4",
+        "timePeriod": 1300,
+        "level": "300",
+        "speakers": [
+            "jon-hoguet"
+        ],
+        "resources": [
+            {
+                "href": "http://goo.gl/Q3ccNO",
+                "title": "Slides"
+            },
+            {
+                "href": "http://goo.gl/JMf0ss",
+                "title": "Post"
+            }
+        ]
+    },
+    "architecting-your-solution": {
+        "slug": "architecting-your-solution",
+        "title": "Architecting Your Solution: The Hidden Requirements",
+        "description": "Every project starts with someone saying, \"I need THIS done.\" They're commonly able to functionally define what \"THIS\" means, but often aren't aware of the VAST majority of necessary non-functional requirements.\n\nTheir short list of requirements may encompass less than 50% of the overall scope of a project. The rest will be up to you to identify and address.\n\nIn this session we'll cover the often overlooked project requirements that your business stakeholders need YOU to know without being told, in order to create a well architected solution.",
+        "track": "practices",
+        "space": "room-1",
+        "timePeriod": 1545,
+        "level": "200",
+        "speakers": [
+            "amy-coutu"
+        ]
+    },
+    "awesome-workflows-with-grunt-bower-and-yeoman": {
+        "slug": "awesome-workflows-with-grunt-bower-and-yeoman",
+        "title": "Awesome Workflows with Grunt, Bower and Yeoman",
+        "description": "How to use Grunt, Bower and Yeoman to get your front-end web development projects started fast, automate repetitious and tedious tasks, and maintain those annoying JavaScript dependencies.",
+        "track": "data-process-and-other",
+        "space": "room-2",
+        "timePeriod": 1545,
+        "level": "200",
+        "speakers": [
+            "john-need"
+        ],
+        "resources": [
+            {
+                "href": "http://www.slideshare.net/JohnNeed/awesome-workflowswithyeomangruntandbowercodecampvt2014",
+                "title": "Slides"
+            }
+        ]
+    },
+    "azure-web-sites-secrets-exposed": {
+        "slug": "azure-web-sites-secrets-exposed",
+        "title": "Azure Web Sites Secrets, Exposed!",
+        "description": "Microsoft's premier cloud solution for custom web applications, Windows Azure Web Sites, has brought the DevOps movement to millions of developers and revolutionized the way that servers are provisioned and applications deployed.\n\nIncluded with all the headline functionality are many smaller, less-known or undocumented features that serve to greatly improve developer productivity. Join Microsoft MVP and veteran web developer Nik Molnar for a whirlwind tour of these secret features and enhance your cloud development experience.",
+        "track": "web",
+        "space": "room-4",
+        "timePeriod": 1015,
+        "level": "200",
+        "speakers": [
+            "nik-molnar"
+        ]
+    },
+    "behavior-driven-development": {
+        "slug": "behavior-driven-development",
+        "title": "Behavior-Driven Development: One Team's Exploration",
+        "description": "In this session we will look into a team's experience with adopting Behavior-Driven Development (BDD) and look to answer these questions:\n\n * Why did we try it?\n * What tools and processes did we adopt?\n * How did it go?",
+        "track": "practices",
+        "space": "room-1",
+        "timePeriod": 900,
+        "level": "200",
+        "speakers": [
+            "david-coutu"
+        ],
+        "resources": [
+            {
+                "href": "http://www.slideshare.net/dtcoutu/behaviordriven-design-one-teams-exploration",
+                "title": "Slides"
+            },
+            {
+                "href": "http://martinfowler.com/articles/is-tdd-dead/",
+                "title": "More Resources"
+            }
+        ]
+    },
+    "better-code-better-debugging": {
+        "slug": "better-code-better-debugging",
+        "title": "Better Code, Better Debugging",
+        "description": "Visual Studio and .NET keep offering better debugging support, but debugging is still a game of strategy. Come to this talk to merge strategy with the debugging tools in your environment. You'll see debugging features in current versions of Visual Studio and upcoming in Visual Studio \"14\" along with operating system features like ETW (Event Tracing for Windows). Good debugging strategies increase the effectiveness of the questions you're asking, and tools offer an array of tactics to efficiently answer each question and move on to the next. Regression testing is the backstop to do this fearlessly. You'll learn how to formulate ideas into testable strategies, use an array of Visual Studio tools when the bug is reproducible, and build and wade through piles of information when the issue only occurs in production.",
+        "track": "practices",
+        "space": "room-1",
+        "timePeriod": 1015,
+        "level": "300",
+        "speakers": [
+            "kathleen-dollard"
+        ]
+    },
+    "build-a-more-vibrant-tech-community": {
+        "slug": "build-a-more-vibrant-tech-community",
+        "title": "Build A More Vibrant Tech Community",
+        "description": "Learning to code is quickly becoming a necessary skill, but our community needs help to ensure that resources are reaching the people who need these skills most. The explosive growth of Girl Develop It in Burlington has proven that merely by inviting an underrepresented sub sector, you'll find that if you build it, they will come. But GDI is not enough, more resources must become available to bring in wider diversity, reach out to the more rural areas of Vermont, and also to teach children. This is an imperative investment to ensure a vibrant tech future for Vermont. This talk will review how you can contribute and what can be done to build and maintain a wider and more inclusive tech community. It's easier than you think!",
+        "track": "ms-and-other",
+        "space": "room-3",
+        "timePeriod": 1130,
+        "level": "100",
+        "speakers": [
+            "maureen-mcelaney"
+        ]
+    },
+    "build-x-platform-apps-that-work-when-all-else-fails": {
+        "slug": "build-x-platform-apps-that-work-when-all-else-fails",
+        "title": "Build X Platform Apps That Work When All Else Fails",
+        "description": "Anyone with a phone knows that despite widespread coverage cellular connections are spotty and often slower and weaker than what we hope.\n\nAre your apps one of the few that responsibly handles connectivity issues and manages delays and stale data for the user? Based upon experiences designing and deploying applications in areas hit by natural disasters, we will discuss best practices and strategies for coding these responsible applications across mobile platforms that minimize data transferred, connection delays, store and forward uploads and requests, and use fallback technologies, like SMS, that are more likely to work in limited connectivity scenarios. To help you build consistent user experiences across device platforms we will focus on implementations with C# and .NET, leveraging open source frameworks and Mono/Xamarin that work across Windows Phone, Windows 8 and iOS & Android apps.",
+        "track": "ms-and-other",
+        "space": "room-3",
+        "timePeriod": 1630,
+        "level": "200",
+        "speakers": [
+            "tony-surma"
+        ]
+    },
+    "building-a-web-controlled-telepresence-rover": {
+        "slug": "building-a-web-controlled-telepresence-rover",
+        "title": "Building a Web Controlled Telepresence Rover",
+        "description": "Utilizing the RaspberryPi, power electronics, Python, and a tablet - we will walk through the construction (software, mechanical, electrical) of a web controlled telepresence rover.\n\nThis is a fun explanation and \"how to\" for integrating computation, electronics and web based control that anyone can build with off the shelf parts.",
+        "track": "web",
+        "space": "room-4",
+        "timePeriod": 1200,
+        "level": "200",
+        "speakers": [
+            "john-cicilio"
+        ],
+        "resources": [
+            {
+                "href": "http://www.slideshare.net/johncicilio/vermont-code-camp-2014-simple-rover",
+                "title": "Slides"
+            }
+        ]
+    },
+    "building-c-sharp-xamarin-forms-apps": {
+        "slug": "building-c-sharp-xamarin-forms-apps",
+        "title": "Building C# Xamarin Forms Apps",
+        "description": "Use Visual Studio and C# to build native apps for iOS, Android and Windows Phone using the same User Interface code with Xamarin Forms. You just might say, \"Pinch me, I must be dreaming of Nirvana!\" It's true, come to this session and learn how to get started with Xamarin Forms! We will build an app from scratch showing off all of the controls, pages and layouts as well as some setup information.\n\nDemos will focus using Visual Studio, as well as C#. Also covered will be conditional compilation and the Device.OnPatform method. And we well as a look at Xamarin XAML and all of the controls. After seeing this session, you will know how to write Android, iOS and Windows Phone apps at the same time.",
+        "track": "ms-and-other",
+        "space": "room-3",
+        "timePeriod": 1300,
+        "level": "100",
+        "speakers": [
+            "russell-fustino"
+        ]
+    },
+    "clean-code": {
+        "slug": "clean-code",
+        "title": "Clean Code: Write Clean Think Clean",
+        "description": "This is a session for developers of all levels and platforms. Dive into the how's and why's for developing clean code and learn to \"think clean\" when writing code. We will also share tips and tricks about industry tools available to help.",
+        "track": "practices",
+        "space": "room-1",
+        "timePeriod": 1130,
+        "level": "200",
+        "speakers": [
+            "hetal-dave"
+        ],
+        "resources": [
+            {
+                "href": "http://www.slideshare.net/gujju73/think-clean-39350240",
+                "title": "Slides"
+            }
+        ]
+    },
+    "d3-js": {
+        "slug": "d3-js",
+        "title": "D3.js: A Paradigm Shift in Client-side Visualization of Data",
+        "description": "Visualization is the key to extracting information from data, but traditionally we've looked at charts and graphs one dimensionally, and decoupled from one another.\n\nThis talk is about the D3.js (Data Driven Documents) framework, a client-side visualization framework, and why its paradigm for visualization of data is an enabling technology for ways to explore data visually, and addresses a lot of the limitations associated with other charting libraries.\n\nThis talk address the paradigm behind D3, some sample use cases, and a tutorial to help get over some fundamental concepts needed to start using D3.",
+        "track": "data-process-and-other",
+        "space": "room-2",
+        "timePeriod": 1415,
+        "level": "200",
+        "speakers": [
+            "mark-sawczuk"
+        ]
+    },
+    "deploying-your-applications-with-docker": {
+        "slug": "deploying-your-applications-with-docker",
+        "title": "Deploying Your Applications with Docker",
+        "description": "Docker is all the rage these days, and it is hard to keep up with all the buzz. This session will start with an overview of using Docker containers as a tool for deploying software applications. We'll also cover some of the tooling that supports clustering and PaaS deployment of Docker applications including Kubernetes, Mesos, and maybe a bit of CoreOS.",
+        "track": "practices",
+        "space": "room-1",
+        "timePeriod": 1630,
+        "level": "200",
+        "speakers": [
+            "brian-lloyd-newberry"
+        ]
+    },
+    "geek-meets-science": {
+        "slug": "geek-meets-science",
+        "title": "Geek Meets Science: ChemIDplus, an Example of Scientific Thinking",
+        "description": "[The ChemIDplus system](http://chem.sis.nlm.nih.gov/chemidplus/) is one of the longest-lived chemical structure search systems on the web, having started operations in 1998. The database contains over 400,000 records of which about 313,000 have chemical structures. The focus of ChemIDplus is a curated directory of links to health and safety data across governmental, regulatory and literature databases.\n\nWhat does it take to create a database of chemical structures and make it searchable on the web? A specialized component at the database (often a chemically-aware 'cartridge'), plus a graphical component to render structure for searching and upon retrieval.\n\nWe'll examine ChemIDplus as an example of geek-meets-science and an interesting database that's publicly available.",
+        "track": "ms-and-other",
+        "space": "room-3",
+        "timePeriod": 1545,
+        "level": "200",
+        "speakers": [
+            "mitch-miller"
+        ]
+    },
+    "git-and-tfs": {
+        "slug": "git-and-tfs",
+        "title": "You've Used Git. You've Used TFS. Why Aren't You Using Them Together?",
+        "description": "When you start a new job & they're using TFS, do you wish they were using Git INSTEAD? Why don't YOU use them TOGETHER? The git-tfs bridge enables the best of both worlds: TFS for devs who (like I used to say) \"have no interest in learning a command-line tool,\" while enabling those of us who have seen Git solve version control challenges previously assumed unsolvable, to use our new Git love. This is a level 200 talk (meaning if you've never used Git, this talk is not for you... yet. Go to a \"what is Git?\" talk first. We will not cover the time-consuming \"what is a dvcs?\" topics and such). If you've used both TFS & Git, but only separately, or want to know even MORE about using both together, this talk is for you.",
+        "track": "ms-and-other",
+        "space": "room-3",
+        "timePeriod": 900,
+        "level": "200",
+        "speakers": [
+            "cori-drew"
+        ]
+    },
+    "it-takes-a-village": {
+        "slug": "it-takes-a-village",
+        "title": "It Takes a Village (to Teach Kids to Code)",
+        "description": "Coding is a vital skill for 21st century students, and you can help them learn by opening your doors to their schools. Community partnerships provide real world, hands-on help with skill learning, besides keeping student engagement and enthusiasm. Be part of the revolution – get involved!",
+        "track": "practices",
+        "space": "room-1",
+        "timePeriod": 1200,
+        "speakers": [
+            "mark-olofson"
+        ],
+        "resources": [
+            {
+                "href": "http://tiie.w3.uvm.edu/blog/support-community-partnerships/",
+                "title": "Post"
+            }
+        ]
+    },
+    "java-object-oriented-querying": {
+        "slug": "java-object-oriented-querying",
+        "title": "jOOQ: Java Object Oriented Querying",
+        "description": "jOOQ is a lightweight database abstraction layer that allows you to write native SQL using the type safety and expressiveness of Java 8. Why struggle with ORMs or query sanitization when you can use your relational database like it was meant to be used? We will demonstrate how to implement jOOQ for business applications in a few easy steps.",
+        "track": "data-process-and-other",
+        "space": "room-2",
+        "timePeriod": 900,
+        "level": "200",
+        "speakers": [
+            "breandan-considine"
+        ]
+    },
+    "lunch": {
+        "slug": "lunch",
+        "title": "Lunch",
+        "description": "",
+        "space": "main-hall",
+        "timePeriod": 1200,
+        "speakers": [],
+        "sessions": [
+            {
+                "speaker": "Mark Olofson",
+                "speakerLink": "/speakers#mark-olofson",
+                "name": "It Takes a Village (to Teach Kids to Code)",
+                "link": "/sessions#it-takes-a-village",
+                "room": "Room 1"
+            },
+            {
+                "speaker": "John Cicilio",
+                "speakerLink": "/speakers#john-cicilio",
+                "name": "Building a Web Controlled Telepresence Rover",
+                "link": "/sessions#building-a-web-controlled-telepresence-rover",
+                "room": "Room 4"
+            }
+        ]
+    },
+    "managing-builds-with-gradle": {
+        "slug": "managing-builds-with-gradle",
+        "title": "Managing Builds with Gradle",
+        "description": "Gradle is a build automation tool that can automate compiling, testing, packing and deployment of your projects. It combines the flexibility of Ant and Dependency Management of Maven and provides a sweet spot for developers to write effective builds. Gradle supports multiple languages and platforms like C, C++, Scala, Groovy, Android etc. In this introductory level talk, we will discuss why people are talking about Gradle and some of the features that it provides. We will also look into some of the commonly used Gradle tasks. Lastly, we will compare maven and Gradle builds through a sample project.",
+        "track": "data-process-and-other",
+        "space": "room-2",
+        "timePeriod": 1130,
+        "level": "200",
+        "speakers": [
+            "richa-khandelwal"
+        ]
+    },
+    "modern-web-diagnostics-with-a-glimpse-into-asp-dot-net": {
+        "slug": "modern-web-diagnostics-with-a-glimpse-into-asp-dot-net",
+        "title": "Modern Web Diagnostics with a Glimpse into ASP.NET",
+        "description": "With the state of diagnostics on the web being what it is, we currently have to do a job that is much harder than it should be. Too often, the tools we are provided with only show a small part of the picture, leaving us to guess what else might be happening behind the scenes. Glimpse is an open source project that aims to change the way we think about diagnostics and the frameworks we interact with.\n\nAfter releasing Glimpse at Mix 11, Glimpse has become a tool that is used daily by tens of thousands of developers around the world. In this session, you'll learn how to use Glimpse to reveal a complete picture of what is happening within your ASP.NET MVC and WebForms sites, discover what tools are included out of the box, and see how you can easily extend it to suit your needs.",
+        "track": "web",
+        "space": "room-4",
+        "timePeriod": 900,
+        "level": "100",
+        "speakers": [
+            "anthony-van-der-hoorn"
+        ]
+    },
+    "modernizing-your-data-warehouse-for-hadoop": {
+        "slug": "modernizing-your-data-warehouse-for-hadoop",
+        "title": "Modernizing Your Data Warehouse for Hadoop",
+        "description": "What is the architecture of a data warehouse in 2014? How can we integrate new trends and technologies? This session talks on how a data warehouse can benefit of newest SQL Server 2014 features and Azure HDInsight Big Data technologies.",
+        "track": "data-process-and-other",
+        "space": "room-2",
+        "timePeriod": 1300,
+        "level": "300",
+        "speakers": [
+            "christian-cote"
+        ]
+    },
+    "powershell-the-super-beast": {
+        "slug": "powershell-the-super-beast",
+        "title": "PowerShell the Super Beast!",
+        "description": "PowerShell the Microsoft version of a functional command line has many features the Apples and Linuxes of this world dream of.\n\nThe talk focuses on the basics of PowerShell to get the audience beyond the very basics.\n\nUsing PowerShell to automate tasks, gather data, talk to databases and other systems. Massage data and do things with it.",
+        "track": "ms-and-other",
+        "space": "room-3",
+        "timePeriod": 1415,
+        "level": "200",
+        "speakers": [
+            "matthias-bannach"
+        ]
+    },
+    "programming-in-the-2020s": {
+        "slug": "programming-in-the-2020s",
+        "title": "Programming in the 2020s",
+        "description": "The Web and CGI gave a boost to 1990s scripting languages. Their low barrier to entry and resulting widespread use fueled a renaissance in application development. But they have also filled the world with imperative code and shared, mutable state, despite lacking the low-level rationale of C. As the use of the Web as an application platform increases, these languages are ill-suited to increased demands for reliability, performance, and distribution. Over the next five years, these languages will be supplanted by faster compiled languages with advanced type systems. In this session, we will take a peek at what intro to programming will look like in the following decade. We'll go over lambda calculus, category theory, dependent types, recursion, cartesian products, disjoint unions, monads, and many other elementary ideas from programming in the 2020s.",
+        "track": "data-process-and-other",
+        "space": "room-2",
+        "timePeriod": 1015,
+        "level": "200",
+        "speakers": [
+            "eric-smith"
+        ]
+    },
+    "pulling-your-website-up-by-your-twitter-bootstraps": {
+        "slug": "pulling-your-website-up-by-your-twitter-bootstraps",
+        "title": "Pulling Your Website Up By Your Twitter Bootstraps",
+        "description": "This session will cover an Introduction to using Twitter Bootstrap in ASP.NET.\n\nTwitter bootstrap is a great, open-source front-end framework for designing and developing sleek web applications. It's been out for a while, but if you haven't had a chance to take it for a spin, this session will be a great launching pad. We'll cover some of the basic principles of responsive design, and discuss how Bootstrap (or any front end framework) can make designing a modern UI much easier.\n\nKyle is currently 20th on the top twitter-bootstrap answerers on StackOverflow of all time. But don't just take his word for it: [data.stackexchange.com/stackoverflow/query/185479/](http://data.stackexchange.com/stackoverflow/query/185479/)",
+        "track": "web",
+        "space": "room-4",
+        "timePeriod": 1545,
+        "level": "100",
+        "speakers": [
+            "kyle-mitofsky"
+        ],
+        "resources": [
+            {
+                "href": "http://1drv.ms/1AWqTo7",
+                "title": "Slides"
+            },
+            {
+                "href": "http://plnkr.co/edit/22uGuK",
+                "title": "Demo"
+            },
+            {
+                "href": "http://www.codingeverything.com/2014/06/BootstrapPresentation.html",
+                "title": "More Resources"
+            }
+        ]
+    },
+    "qa-basics": {
+        "slug": "qa-basics",
+        "title": "QA Basics for Devs, Project Managers & Presidents",
+        "description": "We will cover QA basics; defining QA, when & why it is needed as part of the SDLC, a few quick QA exercises for the audience (QA a coffee mug), some basic QA vocabulary, automated vs manual testing why and when to use them, the benefits of using QA, and does it really cut costs?",
+        "track": "practices",
+        "space": "room-1",
+        "timePeriod": 1300,
+        "level": "200",
+        "speakers": [
+            "brie-hoblin"
+        ],
+        "resources": [
+            {
+                "href": "https://speakerdeck.com/mountaingirl/quality-assurance-basics-for-devs-project-managers-and-presidents",
+                "title": "Slides"
+            }
+        ]
+    },
+    "raffle": {
+        "slug": "raffle",
+        "title": "Raffle!",
+        "space": "main-hall",
+        "timePeriod": 1730,
+        "speakers": []
+    },
+    "registration": {
+        "slug": "registration",
+        "title": "Registration",
+        "space": "main-hall",
+        "timePeriod": 800,
+        "speakers": []
+    },
+    "resilient-applications-with-actors": {
+        "slug": "resilient-applications-with-actors",
+        "title": "Resilient Applications with Actors",
+        "description": "As CPU clock speeds have stagnated we have gained many cores, creating the problem of keeping them all busy. While the threading model can achieve this, it can be difficult to write deadlock and race condition free code. Several concurrency models have come to prominence of late such as Software Transactional Memory and Actors. In this talk we will look at the actor programming model, compare its programming model standard request/response frameworks and apply actors in a service tier application. Examples will be in Java and Scala.",
+        "space": "room-5",
+        "timePeriod": 1015,
+        "level": "200",
+        "speakers": [
+            "peter-vile"
+        ]
+    },
+    "snacks": {
+        "slug": "snacks",
+        "title": "Break and Afternoon Snacks",
+        "space": "main-hall",
+        "timePeriod": 1515,
+        "speakers": []
+    },
+    "take-control-of-your-interface": {
+        "slug": "take-control-of-your-interface",
+        "title": "Take Control of Your Interface: Crafting API Responses for Your Clients",
+        "description": "Web frameworks help you build an API quickly but most have little support for dealing with an API that needs to evolve, forcing you to prematurely version your API.\n\nTake back control of the content you send over the wire. API responses are the \"user interface\" of your API and should be crafted with same attention to detail that cause designers to fret over color choices, shadows and highlights.\n\nIn this talk I'll show you what I have learned about API response design in the last 8 years of building Web APIs. I'll cover issues like structuring for evolution, sizing for optimum caching, the different ways to include metadata, media type selection and many other issues that surface when trying to design an API for the long haul.",
+        "track": "web",
+        "space": "room-4",
+        "timePeriod": 1415,
+        "level": "300",
+        "speakers": [
+            "darrel-miller"
+        ],
+        "resources": [
+            {
+                "href": "http://www.bizcoder.com/vermont-code-camp",
+                "title": "Slides"
+            }
+        ]
+    },
+    "tales-from-the-scrum-bowl": {
+        "slug": "tales-from-the-scrum-bowl",
+        "title": "Tales from the Scrum Bowl: Servant-Leadership in the Dual Role of Scrum Master and Developer",
+        "description": "What's it like to be a developer on a team *and* to serve as its Scrum Master? In this talk, we'll discuss life on an agile scrum team and what it means to wear both of these hats. Does being a Scrum Master take away from the development role? Which role takes priority? Do the roles compliment each other? And what can we learn from each experience?",
+        "track": "practices",
+        "space": "room-1",
+        "timePeriod": 1415,
+        "level": "100",
+        "speakers": [
+            "rob-friesel"
+        ],
+        "resources": [
+            {
+                "href": "http://founddrama.github.io/vt-code-camp-2014/",
+                "title": "Slides"
+            }
+        ]
+    },
+    "techniques-for-cross-platform-dot-net-development": {
+        "slug": "techniques-for-cross-platform-dot-net-development",
+        "title": "Techniques for Cross Platform .NET Development",
+        "description": "There are many ways to share code between .NET, Windows Phone, and Window Store applications. Reduce duplicate code and copy/paste code sharing with Portable Class Libraries, linking code files and Universal Apps. Learn how to include platform specific code through partial classes and dependency injection to maximize code reuse.",
+        "track": "ms-and-other",
+        "space": "room-3",
+        "timePeriod": 1015,
+        "level": "300",
+        "speakers": [
+            "jeremy-hutchinson"
+        ]
+    },
+    "the-internet-of-things": {
+        "slug": "the-internet-of-things",
+        "title": "The Internet of Things",
+        "description": "The Internet of Things (IoT) movement is picking up steam. It's estimated that by 2020, the IoT will be an $8.9 trillion market with over 200 billion connected devices. In this session you'll learn how to leverage your existing .NET skills to build the next big (or tiny) thing!\n\nThis session will explore:\n\n * What is the Internet of Things?\n * An introduction to basic micro electronics.\n * What is the .NET Micro Framework (NETMF)?\n * Exploring the Netduino and Arduino.\n * Running C# on a Raspberry Pi.\n * Connecting your devices to Azure.\n * Using the Windows on Devices SDK with an Intel Galileo.\n\nThere will be no time for boring slides here. Instead we'll be covering lots of code and fun interactive demos with the audience. Be sure to attend because you won't want to miss out on the swag and cool prizes given away during the session.",
+        "track": "web",
+        "space": "room-4",
+        "timePeriod": 1630,
+        "level": "100",
+        "speakers": [
+            "jason-kanaris"
+        ],
+        "resources": [
+            {
+                "href": "http://www.slideshare.net/phantomtypist/internet-of-things-iot-presentation",
+                "title": "Slides"
+            }
+        ]
+    },
+    "this-linux-life": {
+        "slug": "this-linux-life",
+        "title": "This Linux Life",
+        "description": "In this session we'll look at Linux as an alternative to the Mac OS and Microsoft Windows. We'll compare Linux Development Tools to their proprietary counterparts like Visual Studio and SQL Server Manager and will look at Linux Open Source alternatives to everyday applications like Quicken, Photoshop and Microsoft Office. We'll spend a little time covering the Linux Ecosystem and most popular Linux distributions. Finally, you will learn how to experience Linux on your PC or laptop without making any changes to your current working environment.",
+        "track": "data-process-and-other",
+        "space": "room-2",
+        "timePeriod": 1630,
+        "level": "100",
+        "speakers": [
+            "dave-burke"
+        ],
+        "resources": [
+            {
+                "href": "http://nixmash.com/x/presentations/thislinuxlife/",
+                "title": "Slides"
+            },
+            {
+                "href": "http://nixmash.com/linux/this-linux-life-my-vermont-code-camp-6-presentation/",
+                "title": "Post"
+            }
+        ]
+    },
+    "using-grunt-js-to-automate-your-wordpress-workflow": {
+        "slug": "using-grunt-js-to-automate-your-wordpress-workflow",
+        "title": "Using Grunt.js to Automate your WordPress Workflow",
+        "description": "npm and Grunt.js put powerful automation tools at developer's fingertips.\n\nThis talk will provide a brief 20-minute introduction on using grunt.js to optimize your WordPress development workflow, including:\n\n * Compiling of LESS, SASS, or CSS files\n * Linting of JS files\n * Combination, minification, uglification, and compression of assets.\n * Browser live reload\n\nThis talk assumes some familiarity with the command line and CSS preprocessors such as LESS or SASS.\n\nThis talk will focus on using Grunt.js for WordPress installations however the information could easily be applied to other platforms.",
+        "track": "web",
+        "space": "room-4",
+        "timePeriod": 1130,
+        "level": "200",
+        "speakers": [
+            "josh-lee"
+        ],
+        "resources": [
+            {
+                "href": "http://www.slideshare.net/JoshLee11/automate-your-word-press-workflow-with-gruntjs",
+                "title": "Slides"
+            },
+            {
+                "href": "http://www.joshuamlee.com/presentations/2014/9/20/automating-your-wordpress-workflow-with-gruntjs-vtcc",
+                "title": "Post"
+            }
+        ]
+    },
+    "welcome": {
+        "slug": "welcome",
+        "title": "Welcome",
+        "space": "main-hall",
+        "timePeriod": 845,
+        "speakers": []
+    }
+}
