@@ -1,18 +1,18 @@
 {
-    "data-process-and-other": {
-        "slug": "data-process-and-other",
-        "title": "Data, Process & Other"
+    "app-dev": {
+        "slug": "app-dev",
+        "title": "AppDev"
     },
-    "ms-and-other": {
-        "slug": "ms-and-other",
-        "title": "MS & Other"
+    "biz-meta": {
+        "slug": "biz-meta",
+        "title": "Biz/Meta"
+    },
+    "language": {
+        "slug": "language",
+        "title": "Language"
     },
     "practices": {
         "slug": "practices",
         "title": "Practices"
-    },
-    "web": {
-        "slug": "web",
-        "title": "Web"
     }
 }
