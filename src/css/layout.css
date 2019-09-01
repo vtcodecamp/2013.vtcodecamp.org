@@ -404,9 +404,8 @@ ul.sponsors li.name-only {
     text-indent: -999em;
 }
 .logo.the-university-of-vermont {
-    width: 250px;
-    height: 64px;
-    background-image: url(/media/sponsors/The-University-of-Vermont-logo-250x64.jpg);
+    height: 54px;
+    background-image: url(/media/sponsors/The-University-of-Vermont-logo-150x54.jpg);
 }
 .logo.found-line {
     height: 56px;
@@ -418,8 +417,8 @@ ul.sponsors li.name-only {
 }
 .logo.dealer-dot-com {
     width: 250px;
-    height: 33px;
-    background-image: url(/media/sponsors/Dealer-Dot-Com-logo-250x33.jpg);
+    height: 23px;
+    background-image: url(/media/sponsors/Dealer-Dot-Com-logo-250x23.jpg);
 }
 .logo.telerik {
     height: 59px;
@@ -456,8 +455,8 @@ ul.sponsors li.name-only {
     background-image: url(/media/sponsors/Tyler-Technologies-logo-150x53.jpg);
 }
 .logo.oreilly-media {
-    height: 41px;
-    background-image: url(/media/sponsors/OReilly-Media-logo-150x41.jpg);
+    height: 27px;
+    background-image: url(/media/sponsors/OReilly-Media-logo-150x27.jpg);
 }
 .logo.code-magazine {
     height: 55px;
@@ -496,6 +495,10 @@ ul.sponsors li.name-only {
     height: 40px;
     background-image: url(/media/sponsors/Vermont-Makers-logo-150x40.jpg);
 }
+.logo.green-mountain-coffee-roasters {
+    height: 89px;
+    background-image: url(/media/sponsors/Green-Mountain-Coffee-Roasters-logo-150x89.jpg);
+}
 .logo.ux-design-edge {
     height: 24px;
     background-image: url(/media/sponsors/UX-Design-Edge-logo-150x24.jpg);
@@ -516,66 +519,6 @@ ul.sponsors li.name-only {
 .logo.techsmith {
     height: 23px;
     background-image: url(/media/sponsors/TechSmith-logo-150x23.jpg);
-}
-.logo.wiley {
-    height: 32px;
-    background-image: url(/media/sponsors/Wiley-logo-150x32.jpg);
-}
-.logo.safari-books-online {
-    height: 74px;
-    background-image: url(/media/sponsors/Safari-Books-Online-logo-150x74.jpg);
-}
-.logo.evolution {
-    height: 55px;
-    background-image: url(/media/sponsors/Evolution-logo-150x55.jpg);
-}
-.logo.pluralsight {
-    height: 28px;
-    background-image: url(/media/sponsors/Pluralsight-logo-150x28.jpg);
-}
-.logo.logic-supply {
-    height: 46px;
-    background-image: url(/media/sponsors/Logic-Supply-logo-150x46.jpg);
-}
-.logo.wintellectnow {
-    height: 49px;
-    background-image: url(/media/sponsors/WintellectNOW-logo-150x49.jpg);
-}
-.logo.improving-enterprises {
-    height: 47px;
-    background-image: url(/media/sponsors/Improving-Enterprises-logo-150x47.jpg);
-}
-.logo.middlebury-interactive-languages {
-    width: 125px;
-    height: 68px;
-    background-image: url(/media/sponsors/Middlebury-Interactive-Languages-logo-125x68.jpg);
-}
-.logo.competitive-computing {
-    width: 100px;
-    height: 68px;
-    background-image: url(/media/sponsors/Competitive-Computing-logo-100x68.jpg);
-}
-.logo.xamarin {
-    width: 75px;
-    height: 67px;
-    background-image: url(/media/sponsors/Xamarin-logo-75x67.jpg);
-}
-.logo.eatingwell {
-    height: 48px;
-    background-image: url(/media/sponsors/EatingWell-logo-150x48.jpg);
-}
-.logo.afl {
-    height: 47px;
-    background-image: url(/media/sponsors/AFL-logo-150x47.jpg);
-}
-.logo.keurig-green-mountain {
-    width: 200px;
-    height: 46px;
-    background-image: url(/media/sponsors/Keurig-Green-Mountain-logo-200x46.jpg);
-}
-.logo.stg {
-    height: 49px;
-    background-image: url(/media/sponsors/STG-logo-150x49.jpg);
 }
 #event,
 #event a {
