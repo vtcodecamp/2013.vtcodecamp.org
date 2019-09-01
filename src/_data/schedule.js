@@ -4,7 +4,7 @@ module.exports = buildSchedule()
 function buildSchedule()
 {
     let sessionsByTimeSpace = getSessionsByTimeSpace();
-    // return sessionsByTimeSpace;
+    //  return sessionsByTimeSpace;
 
 
     let speakers  = require('./speakers.json');
@@ -17,7 +17,8 @@ function buildSchedule()
         body: [],
     };
     scheduleTable.head.push({ title: 'Time', type: 'timespan' });
-    for (let space of Object.values(spaces)) {
+    let spacesSorted = Object.values(spaces).sort((a, b) => a.order - b.order)
+    for (let space of Object.values(spacesSorted)) {
         let track = tracks[space.track];
         scheduleTable.head.push({
             title: track ? track.title : '',
@@ -86,8 +87,10 @@ function getSessionsByTimeSpace()
 
     // Remove lunch sessions from list
     let lunchPeriod = sessionsByTimeSpace[1200];
-    sessionsByTimeSpace[1200] = {
-        "main-hall": lunchPeriod["main-hall"]
+    if (lunchPeriod) {
+        sessionsByTimeSpace[1200] = {
+            "main-hall": lunchPeriod["main-hall"]
+        }
     }
 
     // Create placeholders for timeslots with no session in a given room
@@ -102,14 +105,24 @@ function getSessionsByTimeSpace()
         }
     }
 
-    // Sort each timeslot by room code
+    // Sort each timeslot by room order
+    let spacesSorted = Object.values(spaces).sort((a, b) => a.order - b.order)
+    spacesSorted.push({
+        "slug": "main-hall",
+        "title": "Main Hall",
+        "order": 1
+    });
     let sessionsByTimeSpaceSorted = {};
-    for (let [timeCode, spaces] of Object.entries(sessionsByTimeSpace)) {
-        let spacesSorted = {};
-        Object.keys(spaces).sort().forEach(function (key) {
-            spacesSorted[key] = spaces[key];
+    for (let [timeCode, sessions] of Object.entries(sessionsByTimeSpace)) {
+
+        let sessionsSorted = {};
+        spacesSorted.forEach(function (space) {
+            if (sessions[space.slug]) {
+                sessionsSorted[space.slug] = sessions[space.slug];
+            }
         });
-        sessionsByTimeSpaceSorted[timeCode] = spacesSorted;
+
+        sessionsByTimeSpaceSorted[timeCode] = sessionsSorted;
     }
     return sessionsByTimeSpaceSorted;
 }

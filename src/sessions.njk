@@ -37,8 +37,10 @@ meta_description: Read more about the sessions of Vermont Code Camp 2013
             </small>
         </h3>
         {% set level = levels[session.level] %}
-        <p class="level">{{ level.title }} <small>({{ level.description }})</small></p>
-
+        {% if level %}
+            <p class="level">{{ level.title }} <small>({{ level.description }})</small></p>
+        {% endif %}
+        
         {{ session.description | markdown | safe }}
 
         {% if session.resources %}
