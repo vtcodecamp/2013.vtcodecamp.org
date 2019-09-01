@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/aad6521e-af47-47a1-8768-53834b15fe32/deploy-status)](https://app.netlify.com/sites/xenodochial-wing-9918b6/deploys)
 
-# VT Code Camp 2014 Website
+# VT Code Camp 2013 Website
 
 Built with the [11ty/Eleventy](https://www.11ty.io) & [netlify](https://app.netlify.com/)
 
